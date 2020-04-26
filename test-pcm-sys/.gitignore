@@ -1,0 +1,173 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.pidb
+*.dat
+*.hgignore
+*.InstallLog
+*.zip
+*.rar
+*.so
+*.pfx
+*.log
+
+# Build results
+**/.*/
+!.vscode/
+.vscode/**/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Tt]emp/
+**/[Ll]ibrary
+[Xx]64/
+[Xx]86/
+[Cc]ache/
+[Bb]uild/
+bld/
+
+# NuGet Packages Directory
+# prefere to use depependant dirrective instead of packages file
+packages/
+## TODO: If the tool you use requires repositories.config
+## uncomment the next line
+#!packages/repositories.config
+
+# Enable "build/" folder in the NuGet Packages folder since
+# NuGet packages use it for MSBuild targets.
+# This line needs to be after the ignore of the build folder
+# (and the packages folder if the line above has been uncommented)
+#!packages/build/
+
+# Roslyn cache directories
+*.ide/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Unity3D
+**/[Ee]xternals/
+**/[Ee]xternals.meta
+**/Assets/Assemblies/
+**/Assets/Assemblies.meta
+[Bb]in.meta
+[Oo]bj.meta
+
+# Microsoft Fakes
+FakesAssemblies/
+
+#GhostDoc files
+*.GhostDoc.*
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+.builds
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+*.pidb
+*.svclog
+*.scc
+*.dat
+*.userprefs
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# add-ins
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+*.DotSettings
+_TeamCity*
+*.dotCover
+.JustCode
+
+# NCrunch
+#_NCrunch_*
+#.*crunch*.local.xml
+# MightyMoose
+#*.mm.*
+#AutoTest.Net/
+# Web workbench (sass)
+#.sass-cache/
+# Installshield output folder
+#[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+#*.[Pp]ublish.xml
+#*.azurePubxml
+## TODO: Comment the next line if you want to checkin your
+## web deploy settings but do note that will include unencrypted
+## passwords
+#*.pubxml
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+# Others
+sql/
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.publishsettings
+node_modules/
